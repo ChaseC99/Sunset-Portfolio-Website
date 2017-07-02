@@ -178,6 +178,8 @@ nav a {
 }
 
 .contact-info li.instagram a {
+    background-size: 13px 13px;
+    background-position: 4px;
     background-image: url('../img/instagram.png');
 }
 
