@@ -97,6 +97,7 @@ nav a {
 /**************************
 	PAGE: PORTFOLIO 
 **************************/
+
 #gallery{
 	margin: 0;
 	padding: 0;
@@ -150,6 +151,7 @@ nav a {
 }
 
 
+
 /**************************
 	PAGE: SOCIAL MEDIA 
 **************************/
@@ -170,7 +172,7 @@ nav a {
 }
 
 .contact-info li.phone a {
-    background-image: url('../img/phone.png')
+    background-image: url('../img/phone.png');
 }
 
 .contact-info li.email a {
@@ -191,9 +193,6 @@ nav a {
     background-image: url('../img/facebook.png');
 }
 
-.contact-info li.phone a {
-    background-image: url('../img/mail.png');
-}
 
 
 /**************************
@@ -251,7 +250,3 @@ nav a, nav a:visited{
 nav a.selected, nav a:hover {
 	color: #32673f;
 }
-
-
-
-
