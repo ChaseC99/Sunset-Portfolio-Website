@@ -104,8 +104,7 @@ nav a {
 
 #gallery li{
 	float: left;
-	width: 45%;
-	height: 215px;
+	height: 265px;
 	margin: 2.5%;
 	background-color: #efefef;
 }
@@ -129,7 +128,7 @@ nav a {
 .gallery_pic {
     object-fit: cover; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
-    height: 150px;
+    height: 200px;
     width: 92%;
 	padding-top: 4%;
 	padding-left: 4%;
