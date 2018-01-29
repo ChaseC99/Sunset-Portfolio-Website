@@ -5,7 +5,7 @@ This is the first website I ever made. It is a portfolio of some of my best suns
 Click [here](https://chasec99.github.io/Sunset-Portfolio-Website/) to see the site!
 
 ### The Website
-The website is a site consisting of 3 tabs.
+This website is a simple site consisting of 3 tabs.
   - [Portfolio](https://chasec99.github.io/Sunset-Portfolio-Website/)
     - A gallery of my sunset pictures.  
   - [About](https://chasec99.github.io/Sunset-Portfolio-Website/about.html)
