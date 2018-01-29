@@ -18,8 +18,8 @@ The website incorporates responsive web design. This means that the website will
 In the future, I will continue to update the website with new sunset pictures.
 
 ### Credits
-Created by Chase Carnaroli  
-Made following [Nick Pettit's](http://nickpettit.com) *Treehouse* course *"[How to Make a Website](https://teamtreehouse.com/library/how-to-make-a-website)"*
+Created by Chase Carnaroli.  
+Made following [Nick Pettit's](http://nickpettit.com) *Treehouse* course *"[How to Make a Website](https://teamtreehouse.com/library/how-to-make-a-website)."*
 
 All photos are copyright protected.  
 &copy; 2017 Chase Carnaroli  
