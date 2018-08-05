@@ -66,7 +66,7 @@ h2{
 
 
 /**************************
-	NAVIGATION 
+	NAVIGATION
 **************************/
 
 nav {
@@ -93,7 +93,7 @@ nav a {
 
 
 /**************************
-	PAGE: PORTFOLIO 
+	PAGE: PORTFOLIO
 **************************/
 
 #gallery{
@@ -138,7 +138,7 @@ nav a {
 
 
 /**************************
-	PAGE: ABOUT 
+	PAGE: ABOUT
 **************************/
 
 .profile-photo {
@@ -151,7 +151,7 @@ nav a {
 
 
 /**************************
-	PAGE: SOCIAL MEDIA 
+	PAGE: SOCIAL MEDIA
 **************************/
 
 .contact-info {
@@ -187,14 +187,18 @@ nav a {
     background-image: url('../img/twitter.png');
 }
 
-.contact-info li.facebook a {
-    background-image: url('../img/facebook.png');
+.contact-info li.github a {
+    background-image: url('../img/github.png');
+}
+
+.contact-info li.linkedIn a {
+	background-image: url('../img/linkedin.png');
 }
 
 
 
 /**************************
-	FOOTER 
+	FOOTER
 **************************/
 
 footer {
@@ -224,7 +228,7 @@ footer {
 
 
 /**************************
-	COLORS 
+	COLORS
 **************************/
 
 /* site body */
