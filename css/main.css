@@ -7,7 +7,6 @@ body {
 }
 
 #wrapper{
-	max-width:940px;
 	margin: 0 auto;
 	padding: 0 5%;
 }
@@ -29,6 +28,7 @@ img {
 
 h3 {
 	margin: 0 0 1em 0;
+	text-align: center;
 }
 
 
@@ -104,14 +104,13 @@ nav a {
 
 #gallery li{
 	float: left;
-	height: 265px;
+	height: 245px;
 	margin: 2.5%;
 	background-color: #efefef;
 }
 
-#gallery li a p{
+#gallery li p{
 	margin: 0;
-	padding: 5%;
 	font-size: 0.75em;
     text-align: center;
 	color: #bdc3c7;
@@ -121,18 +120,38 @@ nav a {
 	background-color: #dfdfdf;
 }
 
- #gallery li:hover a p{
+#gallery li:hover p{
 	color: #fff;
 }
 
 .gallery_pic {
-    object-fit: cover; /* Do not scale the image */
-    object-position: center; /* Center the image within the element */
+    object-fit: cover; 			/* Do not scale the image */
+    object-position: center; 	/* Center the image within the element */
     height: 200px;
     width: 92%;
 	padding-top: 4%;
 	padding-left: 4%;
 	padding-right: 4%;
+}
+
+#fullscreen_overlay {
+	height: 100%;
+	width: 100%;
+	display: none;
+	position: fixed;
+	background-color: rgba(0,0,0, 0.8);
+}
+
+.fullscreen_img {
+	position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    overflow: auto;
 }
 
 
@@ -151,53 +170,6 @@ nav a {
 
 
 /**************************
-	PAGE: SOCIAL MEDIA
-**************************/
-
-.contact-info {
-    padding: 0;
-    margin: 0;
-    font-size: 0.9em;
-}
-
-.contact-info a {
-    display: block;
-    min-height: 20px;
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-    padding: 0 0 0 30px;
-    margin: 0 0 10px;
-}
-
-.contact-info li.phone a {
-    background-image: url('../img/phone.png');
-}
-
-.contact-info li.email a {
-    background-image: url('../img/mail.png');
-}
-
-.contact-info li.instagram a {
-    background-size: 13px 13px;
-    background-position: 4px;
-    background-image: url('../img/instagram.png');
-}
-
-.contact-info li.twitter a {
-    background-image: url('../img/twitter.png');
-}
-
-.contact-info li.github a {
-    background-image: url('../img/github.png');
-}
-
-.contact-info li.linkedIn a {
-	background-image: url('../img/linkedin.png');
-}
-
-
-
-/**************************
 	FOOTER
 **************************/
 
@@ -205,7 +177,6 @@ footer {
 	font-size: 0.75em;
 	text-align: center;
 	clear: both;
-	padding-top: 50px;
 	color: #ccc;
 }
 

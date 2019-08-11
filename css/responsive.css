@@ -11,12 +11,12 @@
     #secondary {
         width: 40%;
         float: right;
-    }
+    }*
 
 
 }
 
-@media screen and (min-width: 550px) and (max-width:721px) {
+@media screen and (min-width: 550px) and (max-width:1000px) {
     #gallery li {
         width: 45%;
     }
@@ -61,23 +61,21 @@
     }
 
     /**************************
-	   PAGE: PORTFOLIO
+	   PAGE: ABOUT
     **************************/
 
+    .profile-photo {
+        float: left;
+        margin: 0 5% 30px 0;
+    }
+}
+
+@media screen and (min-width: 1000px) {
     #gallery li {
         width: 28.3333%;
     }
 
     #gallery li:nth-child(4) {
         clear: left;
-    }
-
-    /**************************
-	   PAGE: ABOUT
-    **************************/
-
-    .profile-photo {
-        float: left;
-        margin: 0 5% 80px 0;
     }
 }

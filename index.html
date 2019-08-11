@@ -1,100 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
-		<meta charset="utf-8">
+    <head>
 		<title>Chase's Sunsets</title>
-		<link rel="stylesheet" href="css/normalize.css">
-		<link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans|Rock+Salt" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/sunsetIcon.png">
+        <link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/responsive.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="icon" href="img/sunsetIcon.png">
+        <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans|Rock+Salt" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="sunset.js"></script>
 	</head>
-  <body>
+    <body>
 		<header>
-			<a href="index.html" id="logo">
+			<a href="http://www.chasecarnaroli.com" id="logo">
 				<h1>Chase Carnaroli</h1>
 				<h2>Sunset Photographer</h2>
 			</a>
 			<nav>
 				<ul>
 					<li><a href="index.html" class="selected">Portfolio</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="socialMedia.html">Social Media</a></li>
+					<li><a href="philosophy.html">Philosophy</a></li>
 				</ul>
 			</nav>
 		</header>
+        <div id="fullscreen_overlay">
+            <img src="" class="fullscreen_img">
+        </div>
 		<div id="wrapper">
 			<section>
 				<ul id="gallery">
 					<li>
-						<a href="img/RainySunset.jpg" target="_blank">
-							<img src="img/RainySunset.jpg" class="gallery_pic" alt"">
-							<p>Rainy sunset in Poway, California.</p>
-						</a>
+						<img src="img/RainySunset.jpg" class="gallery_pic" alt"">
+						<p>Rainy sunset in Poway, California.</p>
 					</li>
                     <li>
-						<a href="img/chatsAboveTheClouds.jpg" target="_blank">
-							<img src="img/chatsAboveTheClouds.jpg" class="gallery_pic" alt"">
-							<p>Two girls chatting above the clouds.</p>
-						</a>
+						<img src="img/chatsAboveTheClouds.jpg" class="gallery_pic" alt"">
+						<p>Two girls chatting above the clouds.</p>
 					</li>
                     <li>
-						<a href="img/beachSunset.jpg" target="_blank">
-							<img src="img/beachSunset.jpg" class="gallery_pic" alt"">
-							<p>Sunset over Mission Beach.</p>
-						</a>
+						<img src="img/beachSunset.jpg" class="gallery_pic" alt"">
+						<p>Sunset over Mission Beach.</p>
 					</li>
 					<li>
-						<a href="img/jcole.jpg" target="_blank">
-							<img src="img/jcole.jpg" class="gallery_pic" alt"">
-							<p>Cole watching the sunset.</p>
-						</a>
+						<img src="img/jcole.jpg" class="gallery_pic" alt"">
+						<p>Cole watching the sunset.</p>
 					</li>
                     <li>
-						<a href="img/aboveTheClouds.jpg" target="_blank">
-							<img src="img/aboveTheClouds.jpg" class="gallery_pic" alt"">
-							<p>Black Mountain, sitting above the clouds.</p>
-						</a>
+						<img src="img/aboveTheClouds.jpg" class="gallery_pic" alt"">
+						<p>Black Mountain, sitting above the clouds.</p>
 					</li>
                     <li>
-                        <a href="img/photoOfSunsetPhoto.jpg" target="_blank">
-                            <img src="img/photoOfSunsetPhoto.jpg" class="gallery_pic" alt"">
-                            <p>Photo of a sunset photo.</p>
-                        </a>
+                        <img src="img/photoOfSunsetPhoto.jpg" class="gallery_pic" alt"">
+                        <p>Photo of a photo of a sunset.</p>
                     </li>
                     <li>
-						<a href="img/purpleClouds.jpg" target="_blank">
-							<img src="img/purpleClouds.jpg" class="gallery_pic" alt"">
-							<p>Poway's purple clouds.</p>
-						</a>
+						<img src="img/purpleClouds.jpg" class="gallery_pic" alt"">
+						<p>Poway's purple clouds.</p>
 					</li>
                     <li>
-						<a href="img/SyrshaAndMaggie.jpg" target="_blank">
-							<img src="img/SyrshaAndMaggie.jpg" class="gallery_pic" alt"">
-							<p>Sunset at the end of a hike.</p>
-						</a>
+						<img src="img/SyrshaAndMaggie.jpg" class="gallery_pic" alt"">
+						<p>Sunset at the end of a hike.</p>
 					</li>
                     <li>
-                        <a href="img/highway67.jpg" target="_blank">
-                            <img src="img/highway67.jpg" class="gallery_pic" alt="">
-                            <p>Highway 67 sunset.</p>
-                        </a>
+                        <img src="img/highway67.jpg" class="gallery_pic" alt="">
+                        <p>Highway 67 sunset.</p>
                     </li>
                     <li>
-                        <a href="img/wavesSunset.jpg" target="_blank">
-                            <img src="img/wavesSunset.jpg" class="gallery_pic" alt="">
-                            <p>Sunset behind the waves.</p>
-                        </a>
+                        <img src="img/wavesSunset.jpg" class="gallery_pic" alt="">
+                        <p>Sunset behind the waves.</p>
                     </li>
 				</ul>
 			</section>
 			<footer>
                 <p class="sunset_quote"><a href="https://www.google.com/search?q=places+to+watch+the+sunset+near+me&oq=places+to+watch+the+sunset+n&aqs" target="_blank">Go watch the Sunset</a></p>
-				<a href="http://twitter.com/chasecarnaroli" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-				<a href="http://instagram.com/chasing_chase19" target="_blank"><img src="img/instagram-wrap.png" alt="Instagram Logo" class="social-icon"></a>
+                <a href="http://instagram.com/chasing_chase19" target="_blank"><img src="img/icons/instagram-wrap.png" alt="Instagram Logo" class="social-icon"></a>
+                <a href="https://www.linkedin.com/in/ChaseCarnaroli" target="_blank"><img src="img/icons/linkedin.png" alt="LinkedIn Logo" class="social-icon"></a>
+                <a href="http://twitter.com/chasecarnaroli" target="_blank"><img src="img/icons/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+                <a href="https://www.github.com/chasec99" target="_blank"><img src="img/icons/github.png" alt="Github Logo" class="social-icon"></a>
 				<p>&copy; 2017 Chase Carnaroli</p>
 			</footer>
 		</div>
-  </body>
+    </body>
 </html>
