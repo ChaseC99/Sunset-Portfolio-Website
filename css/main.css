@@ -157,16 +157,20 @@ nav a {
 
 
 /**************************
-	PAGE: ABOUT
+	PAGE: PHILOSOPHY
 **************************/
 
+#philosophy{
+	text-align: center;
+	max-width: 900px;
+	margin: 30px auto;
+}
+
 .profile-photo {
-	display:block;
-	max-width: 40%;
+	display: block;
 	margin:0 auto 30px;
 	border-radius: 20%;
 }
-
 
 
 /**************************
