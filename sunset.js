@@ -4,13 +4,22 @@
     When an image in the gallery is clicked, it is presented full screen.
 **************************/
 
-function openImg(url) {
+let selectedCard = null;
+
+function openImg() {
+    selectedCard.addClass('no-hover');
+
+    const url = selectedCard.find("img").attr("src");
     $('#fullscreen_overlay').css('display', 'block');
     $('#fullscreen_overlay').find("img").attr('src', url);
 }
 
 function closeImg() {
-    $('#fullscreen_overlay').css('display', 'none');
+    if (selectedCard) {
+        selectedCard.removeClass('no-hover');
+        selectedCard = null;
+        $('#fullscreen_overlay').css('display', 'none');
+    }
 }
 
 $(document).ready(function() {
@@ -19,7 +28,7 @@ $(document).ready(function() {
     });
 
     $('#gallery li').click(function(e) {
-        const imgUrl = $(this).find("img").attr("src");
-        openImg(imgUrl);
+        selectedCard = $(this);
+        openImg();
     });
 });
