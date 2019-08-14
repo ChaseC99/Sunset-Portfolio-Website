@@ -119,9 +119,6 @@ nav a {
 #gallery li:hover {
 	background-color: #dfdfdf;
 	cursor: pointer;
-}
-
-#gallery li:not(.no-hover):hover {
 	transform: scale(1.05);
 	transition: transform .1s;
 }
@@ -144,6 +141,7 @@ nav a {
 	height: 100%;
 	width: 100%;
 	display: none;
+	z-index: 1;
 	position: fixed;
 	background-color: rgba(0,0,0, 0.8);
 }
