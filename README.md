@@ -8,7 +8,7 @@ Click [here](https://chasec99.github.io/sunsets) to see the site!
 This website is a simple site consisting of 2 tabs.
   - [Portfolio](https://chasec99.github.io/sunsets)
     - A gallery of my sunset pictures.  
-  - [Philosophy](https://chasec99.github.io/sunsets/about.html)
+  - [Philosophy](https://chasec99.github.io/sunsets/philosophy.html)
     - A profile picture of me, along with my philosophy on sunsets.
 
 The website incorporates responsive web design. This means that the website will change its layout depending on the screen size.
